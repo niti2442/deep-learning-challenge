@@ -1,0 +1,50 @@
+
+Neural Network Model Report
+
+
+
+
+For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
+
+The report should contain the following:
+
+Overview of the analysis: Explain the purpose of this analysis.
+
+Results: Using bulleted lists and images to support your answers, address the following questions:
+
+Data Preprocessing
+
+What variable(s) are the target(s) for your model?
+-The targeted variable is the IS_SUCCESSFUL column from application_df.
+
+What variable(s) are the features for your model?
+-The feature variables are the other columns from application_df.
+-They include the following:
+   -application_type
+   -affiliation
+   -classification
+   -use_case
+   -organization
+   -status
+   -income_amt
+   -special_considerations
+   -ask_amt
+   -is_successful
+
+What variable(s) should be removed from the input data because they are neither targets nor features?
+-Both 'EIN' and 'Name' columns were removed because they are neither targets nor features. 
+
+Compiling, Training, and Evaluating the Model
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+-I just used 4 and 5 randomly.
+
+Were you able to achieve the target model performance?
+-No, because they were guesses. I was not able to achieve the accuracy of over 75% that was needed.
+
+What steps did you take in your attempts to increase model performance?
+-I tried to use different layers and add and remove more columns to see if higher model accuracy could be in affect.
+
+Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+-The model needed to be 75% accurate in predicting the problem. Using the model with greater correlation would provide more accurate results and have a higher percentage. This could be done by adding and remove columns and also maybe working with a different number of functions. 
+

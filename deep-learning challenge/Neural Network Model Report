@@ -43,4 +43,5 @@ What steps did you take in your attempts to increase model performance?
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 -The model needed to be 75% accurate in predicting the problem. Using the model with greater correlation would provide more accurate results and have a higher percentage. This could be done by adding and remove columns and also maybe working with a different number of functions. 
--Recommendations to use difference models can help use different features. Either variables can be removed or added which will create different results.
+-Recommendations to use different models and using different features can help. Either variables can be removed or added which will create different results.
+-Different functions can be tested to get a higher accuracy.
